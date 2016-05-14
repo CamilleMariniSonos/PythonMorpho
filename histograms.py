@@ -15,7 +15,7 @@ def plot_histogram(data, n_bins=256):
     ax2 = ax1.twinx()
     ax2.plot(bins[:-1], cdf, 'r', lw=2)
 
-@profile
+
 def equalize(image, n_bins=256):
     """
     Perform histogram equalization on the given grayscale ``image`` (2D array
