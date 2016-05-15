@@ -7,7 +7,7 @@ if __name__ == '__main__':
     # matrix but the values in the last dimension are all identical because it is
     # a black-and-white image. We'll therefore ignore all but one value and make the
     # matrix into a 2D matrix of size width x height).
-    image = plt.imread('Unequalized_Hawkes_Bay_NZ.png')[:, :, 0]
+    image = plt.imread('exo_testing/Unequalized_Hawkes_Bay_NZ.png')[:, :, 0]
     plt.subplot(2, 2, 1)
     plt.imshow(image, cmap='gray')
     plt.clim(0, 1)
