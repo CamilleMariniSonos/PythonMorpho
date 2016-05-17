@@ -14,7 +14,9 @@ Nous utiliserons les notebooks suivants:
 #### 13h45-17h15: Introduction aux packages pour le traitement d'images: Pillow, OpenCV et Scikit-Image.  
 
 Nous utiliserons le notebook suivant:  
-* `3_1_PIL.ipynb`    
+* `3_1_pillow.ipynb`    
+* `3_2_opencv.ipynb`    
+* `3_3_scikit_image.ipynb`    
 
 ### Mercredi 18 Mai 2016 
 
